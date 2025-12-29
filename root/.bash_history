@@ -55,3 +55,12 @@ nano /home/kiosk/.config/openbox/autostart
 nano /usr/local/bin/ha-chromium-kiosk.sh 
 reboot
 reboot
+xrandr
+DISPLAY=0; xrandr
+DISPLAY=:0; xrandr
+DISPLAY=:0 xrandr
+DISPLAY=:0 xrandr --output HDMI-1 --same-as DP-1
+DISPLAY=:0 xrandr
+DISPLAY=:0 xrandr
+DISPLAY=:0.0 xrandr
+DISPLAY=:0 xrandr
