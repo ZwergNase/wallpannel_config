@@ -64,3 +64,8 @@ DISPLAY=:0 xrandr
 DISPLAY=:0 xrandr
 DISPLAY=:0.0 xrandr
 DISPLAY=:0 xrandr
+top
+df -h
+ls /dev
+fdisk -l
+reboot
