@@ -69,3 +69,102 @@ df -h
 ls /dev
 fdisk -l
 reboot
+df -h
+cd /
+ls /tmp/
+du -sh *
+cd var
+du -sh *
+cd cache/
+ls l-
+ls -l
+cd cache/
+du -sh *
+cd apt
+ls -l
+du -sh *
+cd archives/
+ls -l
+apt-get update
+apt-get install resizefs
+apt-get install resize2fs
+apt-get install extutils
+apt-get install e2fsprogs
+cd /home/
+ls -l
+du -sh *
+cd kiosk/
+ls -l
+cd Downloads/
+ls -l
+cd ..
+ls -lah
+du -sh *
+du -sha *
+du -sh .*
+cd .config/
+ls -l
+du -sh .*
+du -sh *
+cd chromium/
+ls -l
+du -sh *
+cd BrowserMetrics/
+ls -l
+ls -lh
+cd ..
+cd ..
+rm -fR chromium/*
+du -sh *
+df -h
+cd /
+apt-get upgrade
+apt --fix-broken install
+apt-get upgrade
+clear
+apt-get update
+apt-get upgrade
+df -h
+apt-get install e2fsprogs
+apt-get install e2fsprogs
+resize2fs
+resize2fs --help
+resize2fs /dev/sda1 +1G
+man resize2fs
+df -h
+resize2fs /dev/sda1 5G
+df -h
+fdisk
+apt-get install fdisk
+fdisk /dev/sda1
+fdisk /dev/sda
+df -h
+resize2fs /dev/sda1 5G
+df -h
+reboot
+df -h
+top
+screen
+top
+xrand
+xrandr
+xrandr -?
+xrandr --hepl
+xrandr --help
+xrandr -d 0
+xrandr -d 0.0
+su kiosk
+xrandr
+xrandr -d :0
+dmesg
+dmesg | grep hdmi
+dmesg | grep HDMI
+dmesg | grep i9
+ls /lib/firmware/i915/
+grep -e WW -e EE /var/log/Xorg.0.log
+cd /var/log
+ls -l
+dmesg | grep video
+dmesg | more
+dmesg | more
+inix
