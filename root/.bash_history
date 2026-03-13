@@ -168,3 +168,5 @@ dmesg | grep video
 dmesg | more
 dmesg | more
 inix
+htop
+top
