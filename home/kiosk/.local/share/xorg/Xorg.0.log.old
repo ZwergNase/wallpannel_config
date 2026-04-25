@@ -1,32 +1,32 @@
-[    31.357] 
+[    34.201] 
 X.Org X Server 1.21.1.16
 X Protocol Version 11, Revision 0
-[    31.357] Current Operating System: Linux localhost 6.12.74+deb13+1-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.74-2 (2026-03-08) x86_64
-[    31.357] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.12.74+deb13+1-amd64 root=PARTUUID=11453d07-f8fe-4d4e-9986-ccc2197afc68 ro console=tty0 console=ttyS0,115200 earlyprintk=ttyS0,115200 consoleblank=0
-[    31.357] xorg-server 2:21.1.16-1.3+deb13u1 (https://www.debian.org/support) 
-[    31.358] Current version of pixman: 0.44.0
-[    31.358] 	Before reporting problems, check http://wiki.x.org
+[    34.201] Current Operating System: Linux localhost 6.12.74+deb13+1-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.74-2 (2026-03-08) x86_64
+[    34.201] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.12.74+deb13+1-amd64 root=PARTUUID=11453d07-f8fe-4d4e-9986-ccc2197afc68 ro console=tty0 console=ttyS0,115200 earlyprintk=ttyS0,115200 consoleblank=0
+[    34.201] xorg-server 2:21.1.16-1.3+deb13u1 (https://www.debian.org/support) 
+[    34.201] Current version of pixman: 0.44.0
+[    34.201] 	Before reporting problems, check http://wiki.x.org
 	to make sure that you have the latest version.
-[    31.358] Markers: (--) probed, (**) from config file, (==) default setting,
+[    34.201] Markers: (--) probed, (**) from config file, (==) default setting,
 	(++) from command line, (!!) notice, (II) informational,
 	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
-[    31.358] (==) Log file: "/home/kiosk/.local/share/xorg/Xorg.0.log", Time: Thu Apr 23 04:45:43 2026
-[    31.358] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
-[    31.360] (==) No Layout section.  Using the first Screen section.
-[    31.360] (==) No screen section available. Using defaults.
-[    31.360] (**) |-->Screen "Default Screen Section" (0)
-[    31.360] (**) |   |-->Monitor "<default monitor>"
-[    31.360] (==) No monitor specified for screen "Default Screen Section".
+[    34.201] (==) Log file: "/home/kiosk/.local/share/xorg/Xorg.0.log", Time: Fri Apr 24 04:36:41 2026
+[    34.202] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    34.203] (==) No Layout section.  Using the first Screen section.
+[    34.203] (==) No screen section available. Using defaults.
+[    34.203] (**) |-->Screen "Default Screen Section" (0)
+[    34.203] (**) |   |-->Monitor "<default monitor>"
+[    34.204] (==) No monitor specified for screen "Default Screen Section".
 	Using a default monitor configuration.
-[    31.360] (**) Allowing byte-swapped clients
-[    31.360] (==) Automatically adding devices
-[    31.360] (==) Automatically enabling devices
-[    31.360] (==) Automatically adding GPU devices
-[    31.360] (==) Automatically binding GPU devices
-[    31.360] (==) Max clients allowed: 256, resource mask: 0x1fffff
-[    31.362] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
-[    31.362] 	Entry deleted from font path.
-[    31.363] (==) FontPath set to:
+[    34.204] (**) Allowing byte-swapped clients
+[    34.204] (==) Automatically adding devices
+[    34.204] (==) Automatically enabling devices
+[    34.204] (==) Automatically adding GPU devices
+[    34.204] (==) Automatically binding GPU devices
+[    34.204] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    34.206] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[    34.206] 	Entry deleted from font path.
+[    34.207] (==) FontPath set to:
 	/usr/share/fonts/X11/misc,
 	/usr/share/fonts/X11/100dpi/:unscaled,
 	/usr/share/fonts/X11/75dpi/:unscaled,
@@ -34,89 +34,89 @@ X Protocol Version 11, Revision 0
 	/usr/share/fonts/X11/100dpi,
 	/usr/share/fonts/X11/75dpi,
 	built-ins
-[    31.363] (==) ModulePath set to "/usr/lib/xorg/modules"
-[    31.363] (II) The server relies on udev to provide the list of input devices.
+[    34.207] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    34.207] (II) The server relies on udev to provide the list of input devices.
 	If no devices become available, reconfigure udev or disable AutoAddDevices.
-[    31.363] (II) Loader magic: 0x55d6421ecf00
-[    31.363] (II) Module ABI versions:
-[    31.363] 	X.Org ANSI C Emulation: 0.4
-[    31.363] 	X.Org Video Driver: 25.2
-[    31.363] 	X.Org XInput driver : 24.4
-[    31.363] 	X.Org Server Extension : 10.0
-[    31.364] (++) using VT number 7
+[    34.207] (II) Loader magic: 0x56081d94ff00
+[    34.207] (II) Module ABI versions:
+[    34.207] 	X.Org ANSI C Emulation: 0.4
+[    34.207] 	X.Org Video Driver: 25.2
+[    34.207] 	X.Org XInput driver : 24.4
+[    34.207] 	X.Org Server Extension : 10.0
+[    34.208] (++) using VT number 7
 
-[    31.364] (--) controlling tty is VT number 7, auto-enabling KeepTty
-[    31.365] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_31
-[    31.366] (II) xfree86: Adding drm device (/dev/dri/card0)
-[    31.366] (II) Platform probe for /sys/devices/pci0000:00/0000:00:10.0/drm/card0
-[    31.367] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 13 paused 1
-[    31.367] (EE) Error systemd-logind returned paused fd for drm node
-[    31.367] (II) systemd-logind: releasing fd for 226:0
-[    31.369] (--) PCI:*(0@0:16:0) 8086:4626:1e50:8027 rev 12, Mem @ 0xfd000000/16777216, 0xe0000000/268435456, I/O @ 0x0000e0c0/64, BIOS @ 0x????????/131072
-[    31.369] (II) LoadModule: "glx"
-[    31.369] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
-[    31.376] (II) Module glx: vendor="X.Org Foundation"
-[    31.376] 	compiled for 1.21.1.16, module version = 1.0.0
-[    31.376] 	ABI class: X.Org Server Extension, version 10.0
-[    31.376] (==) Matched modesetting as autoconfigured driver 0
-[    31.376] (==) Matched fbdev as autoconfigured driver 1
-[    31.376] (==) Matched vesa as autoconfigured driver 2
-[    31.376] (==) Assigned the driver to the xf86ConfigLayout
-[    31.376] (II) LoadModule: "modesetting"
-[    31.376] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
-[    31.378] (II) Module modesetting: vendor="X.Org Foundation"
-[    31.378] 	compiled for 1.21.1.16, module version = 1.21.1
-[    31.378] 	Module class: X.Org Video Driver
-[    31.378] 	ABI class: X.Org Video Driver, version 25.2
-[    31.378] (II) LoadModule: "fbdev"
-[    31.378] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
-[    31.379] (II) Module fbdev: vendor="X.Org Foundation"
-[    31.379] 	compiled for 1.21.1.3, module version = 0.5.0
-[    31.379] 	Module class: X.Org Video Driver
-[    31.379] 	ABI class: X.Org Video Driver, version 25.2
-[    31.379] (II) LoadModule: "vesa"
-[    31.379] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
-[    31.379] (II) Module vesa: vendor="X.Org Foundation"
-[    31.379] 	compiled for 1.21.1.15, module version = 2.6.0
-[    31.379] 	Module class: X.Org Video Driver
-[    31.379] 	ABI class: X.Org Video Driver, version 25.2
-[    31.379] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
-[    31.379] (II) FBDEV: driver for framebuffer: fbdev
-[    31.379] (II) VESA: driver for VESA chipsets: vesa
-[    31.380] xf86EnableIO: failed to enable I/O ports 0000-03ff (Operation not permitted)
-[    31.380] (EE) open /dev/dri/card0: Permission denied
-[    31.380] (WW) Falling back to old probe method for modesetting
-[    31.380] (EE) open /dev/dri/card0: Permission denied
-[    31.380] (II) Loading sub module "fbdevhw"
-[    31.380] (II) LoadModule: "fbdevhw"
-[    31.380] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
-[    31.380] (II) Module fbdevhw: vendor="X.Org Foundation"
-[    31.380] 	compiled for 1.21.1.16, module version = 0.0.2
-[    31.380] 	ABI class: X.Org Video Driver, version 25.2
-[    31.380] (EE) Unable to find a valid framebuffer device
-[    31.380] (WW) Falling back to old probe method for fbdev
-[    31.380] (II) Loading sub module "fbdevhw"
-[    31.380] (II) LoadModule: "fbdevhw"
-[    31.380] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
-[    31.380] (II) Module fbdevhw: vendor="X.Org Foundation"
-[    31.380] 	compiled for 1.21.1.16, module version = 0.0.2
-[    31.380] 	ABI class: X.Org Video Driver, version 25.2
-[    31.380] (EE) open /dev/fb0: No such file or directory
-[    31.380] vesa: Refusing to run, Framebuffer or dri device present
-[    31.380] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
-[    31.380] (EE) Screen 0 deleted because of no matching config section.
-[    31.381] (II) UnloadModule: "modesetting"
-[    31.381] (EE) Screen 0 deleted because of no matching config section.
-[    31.381] (II) UnloadModule: "fbdev"
-[    31.381] (II) UnloadSubModule: "fbdevhw"
-[    31.381] (EE) Device(s) detected, but none match those in the config file.
-[    31.381] (EE) 
+[    34.208] (--) controlling tty is VT number 7, auto-enabling KeepTty
+[    34.209] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_31
+[    34.211] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    34.211] (II) Platform probe for /sys/devices/pci0000:00/0000:00:10.0/drm/card0
+[    34.211] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 13 paused 1
+[    34.212] (EE) Error systemd-logind returned paused fd for drm node
+[    34.212] (II) systemd-logind: releasing fd for 226:0
+[    34.214] (--) PCI:*(0@0:16:0) 8086:4626:1e50:8027 rev 12, Mem @ 0xfd000000/16777216, 0xe0000000/268435456, I/O @ 0x0000e0c0/64, BIOS @ 0x????????/131072
+[    34.214] (II) LoadModule: "glx"
+[    34.215] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    34.225] (II) Module glx: vendor="X.Org Foundation"
+[    34.225] 	compiled for 1.21.1.16, module version = 1.0.0
+[    34.225] 	ABI class: X.Org Server Extension, version 10.0
+[    34.225] (==) Matched modesetting as autoconfigured driver 0
+[    34.225] (==) Matched fbdev as autoconfigured driver 1
+[    34.225] (==) Matched vesa as autoconfigured driver 2
+[    34.225] (==) Assigned the driver to the xf86ConfigLayout
+[    34.225] (II) LoadModule: "modesetting"
+[    34.225] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    34.226] (II) Module modesetting: vendor="X.Org Foundation"
+[    34.226] 	compiled for 1.21.1.16, module version = 1.21.1
+[    34.226] 	Module class: X.Org Video Driver
+[    34.226] 	ABI class: X.Org Video Driver, version 25.2
+[    34.227] (II) LoadModule: "fbdev"
+[    34.227] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    34.227] (II) Module fbdev: vendor="X.Org Foundation"
+[    34.227] 	compiled for 1.21.1.3, module version = 0.5.0
+[    34.227] 	Module class: X.Org Video Driver
+[    34.227] 	ABI class: X.Org Video Driver, version 25.2
+[    34.227] (II) LoadModule: "vesa"
+[    34.227] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    34.228] (II) Module vesa: vendor="X.Org Foundation"
+[    34.228] 	compiled for 1.21.1.15, module version = 2.6.0
+[    34.228] 	Module class: X.Org Video Driver
+[    34.228] 	ABI class: X.Org Video Driver, version 25.2
+[    34.228] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    34.228] (II) FBDEV: driver for framebuffer: fbdev
+[    34.228] (II) VESA: driver for VESA chipsets: vesa
+[    34.228] xf86EnableIO: failed to enable I/O ports 0000-03ff (Operation not permitted)
+[    34.228] (EE) open /dev/dri/card0: Permission denied
+[    34.228] (WW) Falling back to old probe method for modesetting
+[    34.228] (EE) open /dev/dri/card0: Permission denied
+[    34.228] (II) Loading sub module "fbdevhw"
+[    34.228] (II) LoadModule: "fbdevhw"
+[    34.228] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    34.229] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    34.229] 	compiled for 1.21.1.16, module version = 0.0.2
+[    34.229] 	ABI class: X.Org Video Driver, version 25.2
+[    34.229] (EE) Unable to find a valid framebuffer device
+[    34.229] (WW) Falling back to old probe method for fbdev
+[    34.229] (II) Loading sub module "fbdevhw"
+[    34.229] (II) LoadModule: "fbdevhw"
+[    34.229] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    34.229] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    34.229] 	compiled for 1.21.1.16, module version = 0.0.2
+[    34.229] 	ABI class: X.Org Video Driver, version 25.2
+[    34.229] (EE) open /dev/fb0: No such file or directory
+[    34.229] vesa: Refusing to run, Framebuffer or dri device present
+[    34.229] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    34.229] (EE) Screen 0 deleted because of no matching config section.
+[    34.229] (II) UnloadModule: "modesetting"
+[    34.229] (EE) Screen 0 deleted because of no matching config section.
+[    34.229] (II) UnloadModule: "fbdev"
+[    34.229] (II) UnloadSubModule: "fbdevhw"
+[    34.229] (EE) Device(s) detected, but none match those in the config file.
+[    34.229] (EE) 
 Fatal server error:
-[    31.381] (EE) no screens found(EE) 
-[    31.381] (EE) 
+[    34.229] (EE) no screens found(EE) 
+[    34.229] (EE) 
 Please consult the The X.Org Foundation support 
 	 at http://wiki.x.org
  for help. 
-[    31.381] (EE) Please also check the log file at "/home/kiosk/.local/share/xorg/Xorg.0.log" for additional information.
-[    31.381] (EE) 
-[    31.382] (EE) Server terminated with error (1). Closing log file.
+[    34.229] (EE) Please also check the log file at "/home/kiosk/.local/share/xorg/Xorg.0.log" for additional information.
+[    34.229] (EE) 
+[    34.231] (EE) Server terminated with error (1). Closing log file.
